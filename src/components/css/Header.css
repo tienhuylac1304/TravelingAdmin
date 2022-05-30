@@ -1,0 +1,48 @@
+.header_content{
+    position: fixed;
+    background-color:gold;
+    width: 100%;
+    height: 70px;
+}
+    .header_content a {
+        height: 100%;
+        line-height: 70px;
+        text-decoration: none;
+        margin: 15px;
+        color: #5c0381;
+    }
+.header_content a .header_title{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.header_content a .header_icon img{
+    position: relative;
+    margin-top:10px;
+    width:100px;
+    height:50px;
+    object-fit:cover
+}
+.header_content .search{
+    text-align: right;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+}
+.header_content .search .txt_search{
+    vertical-align: middle;
+    height: 30px;
+    margin-bottom: 30px;
+    width: 30%;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.header_content .search .btn_search{
+    vertical-align: middle;
+    height: 30px;
+    margin-bottom: 30px;
+    margin-left: 5px;
+    background-color: rgba(0, 158, 250, 0.822);
+    padding-inline: 5px;
+    color: #fff;
+    border-radius: 5px;
+}

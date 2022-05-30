@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  max-height: 100vh;
+  background: #2b343b;
+  max-width: 100%;
+}
+.page_content{
+  color: #2b343b;
+  padding-top: 80px;
+  padding-left: 80px;
+  height: 100%;
+  width: 100%;
+  transition: 0.5s ease-out;
+}
+.navigation:hover ~ .page_content{
+
+  padding-left: 250px;
+}

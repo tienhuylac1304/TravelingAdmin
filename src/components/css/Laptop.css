@@ -1,0 +1,44 @@
+.laptop_tb{
+    margin-top: 15px;
+    min-height: 82vh;
+    width: 95%;
+    text-align: center;
+    background-color: rgba(181, 245, 165, 0.986);
+    border: solid 1px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    padding: 15px;
+    font-size: 18px;
+    margin-inline: 2.5%;
+}
+.laptop_tb .ctn_btnCre{
+    text-align: right;
+    margin-bottom: 10px;
+}
+.laptop_tb .tb_title{
+    text-align: left;
+}
+.laptop_tb .tb{
+    width: 100%;
+    border: solid black 1px;
+    text-align: center;
+    background-color: aliceblue;
+    max-height: 60vh;
+    padding: 5px;
+}
+.laptop_tb .tb .tb_header{
+    font-weight: bolder;
+}
+.laptop_tb .tb .tb_body{
+    vertical-align: middle;
+    height: 50px;
+}
+.laptop_tb .tb .tb_body:hover{
+    background-color: rgba(143, 197, 130, 0.986);
+}
+.laptop_tb .tb .tb_body td img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    vertical-align: middle;
+}

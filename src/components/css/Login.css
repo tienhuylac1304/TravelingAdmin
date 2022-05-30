@@ -1,0 +1,78 @@
+.box{
+    width: 500px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #1d1b31;
+    text-align: center;
+    color: #fff;
+    border-radius: 20px;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://wallpaperaccess.com/full/279618.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.box input.textbox{
+    border:2px solid #fff;
+    background: none;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    color: aliceblue;
+    width: 80%;
+    padding: 14px 10px;
+    outline: none;
+    height: 50px;
+    border-radius: 24px;
+    font-size: 18px;
+}
+.box input.textbox:focus{
+    border:2px solid #2ecc71;
+    width: 100%;
+    transition: 0.4 ease-out;
+}
+.box input.textbox:hover{
+    border:2px solid #2ecc71;
+    width: 100%;
+    transition: 0.4 ease-out;
+}
+.title{
+    font-weight: 400px;
+    text-align: left;
+    font-size: 20px;
+}
+.box input.login{
+    border:2px solid #2ecc71;
+    background: none;
+    display: block;
+    text-align: center;
+    width: 100px;
+    margin: 20px auto;
+    margin-top: 20px;
+    color: aliceblue;
+    outline: none;
+    height: 50px;
+    border-radius: 24px;
+    font-size: 18px;
+}
+.box input.login:hover{
+    background: #2ecc71;
+    color: aliceblue;
+    width: 140px;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+}
+h1{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.rememberPass{
+    font-size: 15px;
+    text-align: right;
+    margin-right: 15%;
+}

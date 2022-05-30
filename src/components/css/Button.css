@@ -1,0 +1,45 @@
+.btn{
+    width: fit-content;
+    border-radius: 5px;
+    background-color: gray;
+    text-align: center; 
+    text-decoration: none;
+    font-size: 15px;
+    color: #2b343b;
+    border: solid #2b343b 1px;
+    margin-left: 10px;
+    vertical-align: middle;
+    padding-inline: 5px;
+}
+.btn:hover{
+    color: grey;
+}
+.btn_edit{
+    background-color: rgba(167, 238, 134, 0.822);
+}
+.btn_delete{
+    background-color: rgba(240, 103, 94, 0.822);
+}
+.btn_hide{
+    background-color: rgba(243, 146, 66, 0.822);
+}
+.btn_details{
+    background-color: rgba(57, 176, 245, 0.822);
+}
+.btn_create{
+    background-color: rgba(227, 250, 95, 0.774);
+}
+.btn_copy{
+    background-color: azure;
+}
+.btn_accept{
+    background-color: rgba(57, 176, 245, 0.822);
+}
+i{
+    font-size: 20px;
+    vertical-align: middle;
+}
+.btn span{
+    display: inline;
+    vertical-align: middle;
+}

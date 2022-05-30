@@ -1,0 +1,49 @@
+.profile_tb{
+    margin-top: 15px;
+    min-height: 82vh;
+    width: 95%;
+    text-align: center;
+    background-color: rgba(181, 245, 165, 0.986);
+    border: solid 1px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    padding: 15px;
+    font-size: 18px;
+    margin-inline: 2.5%;
+}
+.profile_tb .ctn_btnCre{
+    text-align: right;
+    margin-bottom: 10px;
+}
+.profile_tb .tb_title{
+    text-align: left;
+}
+.profile_tb .tb{
+    width: 100%;
+    border: solid black 1px;
+    text-align: center;
+    background-color: aliceblue;
+    max-height: 60vh;
+    padding: 5px;
+}
+.profile_tb .tb .tb_header{
+    font-weight: bolder;
+    width: 30%;
+}
+.profile_tb .tb .tb_body{
+    vertical-align: middle;
+    height: 50px;
+}
+.profile_tb .tb .tb_body:hover{
+    background-color: rgba(143, 197, 130, 0.986);
+}
+.profile_tb .prof_img{
+    text-align: center;
+}
+.profile_tb img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    vertical-align: middle;
+    border-radius: 100%;
+}
